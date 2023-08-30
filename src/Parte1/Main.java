@@ -16,7 +16,9 @@ public class Main {
         String atacc2 = Charmander.atacar();
         System.out.println(atacc2);
 
-
+        String pesoNuevo = Charmander.cambiarPeso("9kg");//Sobrecarga
+        System.out.println(pesoNuevo);
+        System.out.println(Charmander);
 
 
     }

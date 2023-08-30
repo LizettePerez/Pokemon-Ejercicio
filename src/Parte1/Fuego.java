@@ -35,10 +35,14 @@ public class Fuego extends Pokemon {
     //Método
     //Sobreescritura de metodo:
     public String atacar () {
+
         return getNombre() + " falló el ataque";
     }
 
-
+    public String cambiarPeso(String nuevoPeso) {
+        setPeso(nuevoPeso);
+        return nuevoPeso;
+    }
 
 }
 
