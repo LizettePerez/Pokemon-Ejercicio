@@ -72,7 +72,7 @@ public class Pokemon {
     }
 
     public String atacar () {
-        return nombre + "realizo un ataque exitoso";
+        return nombre + " realizo un ataque exitoso";
 
     }
 }
